@@ -1,0 +1,506 @@
+/* Preto Paleta  171A21*/
+/* Cinza BackGround DADADA */
+/* Cinza Caixa Texto BCBCBC */
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-VariableFont_wght.ttf)
+  }
+
+body{
+  background-color: #dadada;
+}
+
+.cab{
+  display: flex;
+}
+
+.textocab{
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 15%;
+  color: #171a21;
+  font-family: Oswald;
+  margin-right: 15%;
+}
+
+.textocab h1{
+  font-size: 45px;
+}
+
+.textocab h2{
+  font-size: 40px;
+  margin-top: -5%;
+}
+
+.imgcab{
+  background-color: #bcbcbc;
+  width: 500px;
+  left: 0;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+
+.imgcab img{
+  border-radius: 50%;
+}
+
+.caixastexto{
+  margin-top: 15%;
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.caixastexto .caixa1{
+  background-color: #bcbcbc;
+  width: 47.45%;
+  height: 250px;
+  margin-left: 2.55%;
+  border-radius: 45px;
+}
+
+.caixastexto .caixa1 p{
+  font-family: Oswald;
+  font-size: 24px;
+  padding-top: 5%;
+  padding-left: 4.5%;
+  padding-right: 2%;
+  color: #171a21;
+}
+
+.caixastexto .caixa2{
+    background-color: #bcbcbc;
+    width: 47.45%;
+    height: 250px;
+    margin-right: 2.55%;
+    border-radius: 45px;
+    margin-top: 25%;
+}
+
+.caixastexto .caixa2 p{
+  font-family: Oswald;
+  font-size: 24px;
+  padding-top: 5%;
+  padding-left: 4.5%;
+  padding-right: 2%;
+  color: #171a21;
+}
+
+.caixa3{
+  background-color: #bcbcbc;
+  width: 47.45%;
+  height: 250px;
+  margin-left: 2.55%;
+  border-radius: 45px;
+}
+
+.caixa3 p{
+  font-family: Oswald;
+  font-size: 24px;
+  padding-top: 8%;
+  padding-left: 4.5%;
+  padding-right: 2%;
+  color: #171a21;
+}
+
+.linguas .linha1{
+  margin-top: 10%;
+  margin-left: 14.5%;
+}
+
+.linguas .linha1 #c{
+  margin-left:17.5%;
+  margin-right: 17.5%;
+}
+
+.linguas .linha1 img{
+  width: 182px;
+  height: 182px;
+}
+
+.linguas .linha2{
+  margin-left: 28%;
+}
+
+.linguas .linha2 img{
+  width: 182px;
+  height: 182px;
+}
+
+.linguas .linha2 #html{
+  margin-right: 20%;
+}
+
+.redes{
+  margin-top: 10%;
+  margin-left: 22.5%;
+  margin-bottom: 10%;
+}
+
+.redes a{
+  margin-right: 5%;
+}
+
+.redes img{
+  width: 100px;
+  height: 100px;
+}
+
+.redes h2{
+  margin-left: 25%;
+  font-family: Oswald;
+  color: #171a21;
+  font-size: 28px;
+}
+
+.linguas .linha1 h2{
+  margin-left: 30%;
+  font-family: Oswald;
+  color: #171a21;
+  font-size: 28px;
+}
+
+
+@media screen and (max-width: 930px) {
+  .imgcab img{
+    width: 300px;
+  }
+  .imgcab {
+    margin-top: 10%;
+    width: 325px;
+    height: max-content;
+  }
+
+  .textocab{
+    margin-top: 20%;
+  }
+
+  .textocab h1{
+    font-size: 30px;
+  }
+
+  .textocab h2{
+    font-size: 25px;
+  }
+
+  .caixastexto .caixa1 p{
+    font-size: 20px;
+  }
+
+  .caixastexto .caixa2 p{
+    font-size: 20px;
+  }
+
+  .caixa3 p{
+    font-size: 21px;
+  }
+
+  .linguas .linha1 img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .linguas .linha2 img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .redes img{
+    width: 50px;
+    height: 50px;
+    margin-left: 1%;
+  }
+
+  .redes h2{
+    margin-left: 20%;
+  }
+
+  .linguas .linha1 h2
+  {
+    margin-left: 22.5%;
+  }
+
+  .caixastexto{
+    margin-bottom: -3%;
+  }
+
+}
+
+@media screen and (max-width: 714px){
+  .imgcab{
+    margin-right: 5%;
+    margin-top: 10%;
+  }
+
+  .imgcab img{
+    width: 250px;
+  }
+
+  .textocab {
+    width: 50%;
+  }
+
+  .textocab h1{
+    font-size: 25px;
+  }
+
+  .textocab h2{
+    font-size: 20px;
+  }
+
+  .caixastexto .caixa1{
+    height: 200px;
+    margin-bottom: 100px;
+  }
+
+  .caixastexto .caixa1 p{
+    font-size: 16px;
+  }
+
+  .caixastexto .caixa2{
+    height: 200px;
+  }
+
+  
+  .caixastexto .caixa2 p{
+    font-size: 16.5px;
+  }
+
+  .caixa3{
+    height: 200px;
+  }
+
+  .caixa3 p{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 451px){
+  .imgcab{
+    margin-right: 5%;
+    margin-top: 10%;
+  }
+
+  .imgcab img{
+    width: 200px;
+  }
+
+  .textocab{
+    width: 50%;
+  }
+
+  .textocab h1{
+    font-size: 16px;
+  }
+
+  .textocab h2{
+    font-size: 12px;
+  }
+
+  .caixastexto .caixa1{
+    width: 40%;
+    height: 270px;
+  }
+
+  .caixastexto .caixa2{
+    width: 40%;
+    height: 270px;
+    margin-left: 14%;
+  }
+
+  .caixastexto .caixa1 p{
+    font-size: 15px;
+  }
+
+  .caixastexto .caixa2 p{
+    font-size: 15px;
+  }
+
+  .caixa3 p{
+    font-size: 16px;
+    padding-top: 17px;
+
+  }
+
+   .caixa3{
+    height: 275px;
+    width: 42%;
+  }
+
+  .linguas .linha1 h2{
+    margin-left: 10%;
+  }
+
+  .linguas .linha1 img{
+    width: 70px;
+    height: 70px;
+    margin-left: -4%;
+  }
+
+  .linguas .linha2 img{
+    width: 70px;
+    height: 70px;
+    margin-left: -4%;
+  }
+
+  .redes h2{
+    margin-left: 17%;
+  }
+
+  .redes img{
+    width: 35px;
+    height: 35px;
+  }
+
+  .redes{
+    margin-left: 15.5%;
+  }
+}
+
+@media screen and (max-width: 321px){
+  .imgcab{
+    margin-left: 7%;
+    margin-top: 10%;
+    width: fit-content;
+  }
+
+  .imgcab img{
+    width: 100px;
+  }
+
+  .textocab{
+    margin-right: 0;
+  }
+
+  .caixastexto .caixa1 {
+    width: 50%;
+    height: 380px;
+}
+.caixastexto .caixa2 {
+  width: 50%;
+  height: 350px;
+  margin-left: 14%;
+  margin-top: 129px;
+}
+
+  .caixastexto{
+    margin-bottom: -20%;
+  }
+
+  .caixa3{
+    height: 355px;
+  }
+
+  .caixa3 p{
+    font-size: 15px;
+    padding-top: 25px;
+  }
+
+  .linguas .linha1 img{
+    width: 55px;
+    height: 55px;
+  }
+
+  .linguas .linha1 {
+    margin-top: 10%;
+    margin-left: 10.5%;
+}
+
+  .linguas .linha1 h2{
+    margin-left: 5%;
+  }
+
+  .linguas .linha2 img{
+    width: 55px;
+    height: 55px;
+  }
+
+  .linguas .linha2 {
+    margin-left: 25%;
+}
+
+  .redes img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .redes h2{
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 393px){
+  .imgcab{
+    margin-left: 7%;
+    margin-top: 10%;
+    width: fit-content;
+  }
+
+  .imgcab img{
+    width: 150px;
+  }
+
+  .textocab{
+    margin-right: 0;
+  }
+
+  .caixastexto .caixa1 {
+    width: 50%;
+    height: 270px;
+    margin-left: 0px;
+}
+
+.caixastexto .caixa2 {
+  width: 50%;
+  height: 280px;
+  margin-left: -3%;
+  margin-top: 275px;
+}
+  .caixastexto .caixa2 p{
+    padding-top: 25px ;
+  }
+
+  .caixa3 {
+    height: 280px;
+    width: 50%;
+}
+
+.caixa3 p {
+  font-size: 16px;
+  padding-top: 25px;
+}
+
+  .linguas .linha1 img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .linguas .linha1 {
+    margin-top: 10%;
+    margin-left: 16.5%;
+}
+
+.linguas .linha1 h2 {
+  margin-left: 2%;
+}
+
+  .linguas .linha2 img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .linguas .linha2 {
+    margin-left: 30%;
+}
+
+  .redes{
+    margin-left: 12.5%;
+  }
+
+  .textocab h1 {
+    font-size: 17px;
+}
+.textocab h2 {
+  font-size: 15px;
+}
+}
