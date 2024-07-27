@@ -515,4 +515,139 @@ body{
   }
 }
 
+@media screen and (max-width: 342px){
+  .caixastexto .caixa2 p {
+    font-size: 14.5px;
+}
+
+.caixa3 p {
+  font-size: 14.5px;
+}
+}
+
+@media screen and (max-width:376px){
+  .caixastexto .caixa1 p {
+    font-size: 15.5px;
+}
+.caixastexto .caixa2 p {
+  font-size: 14.9px;
+}
+
+.caixastexto .caixa2 {
+  width: 50%;
+  height: 300px;
+  margin-left: -3%;
+  margin-top: 275px;
+}
+}
+
+
+@media screen and (max-width: 340px){
+  .caixastexto .caixa2 p {
+    font-size: 14.6px;
+}
+}
+
+@media screen and (max-width:333px){
+  .caixastexto .caixa2 p {
+    font-size: 14.5px;
+}
+}
+@media screen and (max-width:330px){
+  .caixastexto .caixa2 p {
+    font-size: 14.27px;
+    padding-top: 14px;
+}
+}
+@media screen and (max-width:321px){
+  .caixastexto .caixa2 {
+    width: 50%;
+    height: 300px;
+    margin-left: -3%;
+    margin-top: 275px;
+    margin-bottom: 56px;
+  }
+  
+  .caixa3 p {
+    font-size: 14px;
+  }
+  
+  .caixastexto .caixa1 p {
+  font-size: 15.3px;
+}
+
+.caixastexto .caixa2 p {
+  font-size: 14px;
+  padding-top: 14px;
+}
+}
+@media screen and (max-width:317px){
+  .caixastexto .caixa1 p {
+    font-size: 15px;
+}
+}
+@media screen and (max-width:311px){
+  .caixastexto .caixa1 p {
+    font-size: 14.8px;
+}
+
+.caixa3 p {
+  font-size: 13.9px;
+}
+}
+@media screen and (max-width:307px){
+  .caixastexto .caixa1 p {
+    font-size: 14.5px;
+}
+
+.caixa3 p {
+  font-size: 13.7px;
+}
+}
+
+@media screen and (max-width:341px){
+  .linguas .linha1 h2{
+    font-size: 24px;
+  }
+
+  .linguas .linha1 img{
+    width: 50px;
+    height: 60px;
+  }
+
+  .linguas .linha2 img{
+    width: 50px;
+    height: 60px;
+  }
+
+  .linguas .linha1 h2 {
+    margin-left: 3%;
+}
+.redes h2 {
+  margin-left: 18%;
+  font-size: 23px;
+}
+
+.redes img {
+  width: 30px;
+  height: 30px;
+}
+}
+
+@media screen and (max-width:341px){
+  .linguas .linha1 h2 {
+    margin-left: 5%;
+    font-size: 22px;
+}
+
+.linguas .linha1 img {
+  width: 45px;
+  height: 55px;
+}
+
+.linguas .linha2 img {
+  width: 45px;
+  height: 55px;
+}
+}
 /* Socorrro */
