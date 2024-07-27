@@ -450,6 +450,10 @@ body{
     margin-left: 0px;
 }
 
+.caixastexto .caixa1 p{
+  font-size: 16px;
+}
+
 .caixastexto .caixa2 {
   width: 50%;
   height: 280px;
