@@ -429,7 +429,7 @@ body{
   }
 }
 
-@media screen and (max-width: 399px){
+@media screen and (max-width: 446px){
   .imgcab{
     margin-left: 7%;
     margin-top: 10%;
@@ -507,4 +507,10 @@ body{
 .textocab h2 {
   font-size: 15px;
 }
+}
+
+@media screen and (max-width:377px){
+  .caixa3 p{
+    font-size: 15.5px;
+  }
 }
